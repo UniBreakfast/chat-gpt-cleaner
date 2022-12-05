@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "chatGPT cleaner",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/chat"],
+      "js": ["scripts/main.js"]
+    }
+  ]
+}

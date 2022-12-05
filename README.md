@@ -16,4 +16,4 @@ A simple Chrome Extension to clean up the output of [ChatGPT](https://chat.opena
 1. Go to [ChatGPT](https://chat.openai.com/chat).
 2. Start a conversation.
 3. Every time AI responds with its usual disclaimer, the extension will automatically hide it behind the words "POSSIBLE DISCLAIMER". You can still read the hidden text by hovering over it.
-4. When you're talking about code and it shows you the code blocks filled with tons of comments you can press `Alt + C` to hide/show them.
+4. When you're talking about code and it shows you the code blocks filled with tons of comments you can press `Alt + C` to hide/show those comments.

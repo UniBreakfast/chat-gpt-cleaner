@@ -134,7 +134,7 @@ function collapseDisclaimers() {
 }
 
 function findAllMessages() {
-  const messages = document.querySelectorAll('div:has(+button)>div')
+  const messages = document.querySelectorAll(`main${'>:first-child'.repeat(4)}>:not(:last-child)`)
 
   return messages.length ? [...messages] : null
 }
